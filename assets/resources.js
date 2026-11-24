@@ -19,44 +19,7 @@ window.AU0009_DATA = {
       "date": "2026-11-18",
       "title": "Induction and AI foundations",
       "summary": "",
-      "items": [
-        {
-          "kind": "PowerPoint",
-          "label": "Week 1, induction and AI foundations",
-          "description": "Induction, then Session 1, AI foundations, after the break at 11:30",
-          "actions": [
-            {
-              "text": "View",
-              "href": "weeks/week-01/au0009-week-1-induction-and-ai-foundations.pdf",
-              "view": true
-            },
-            {
-              "text": "PowerPoint",
-              "href": "weeks/week-01/au0009-week-1-induction-and-ai-foundations.pptx",
-              "size": "5.5 MB",
-              "download": "Week 1, induction and AI foundations.pptx"
-            }
-          ]
-        },
-        {
-          "kind": "Word",
-          "label": "AU0009 Week 1 Learner Pack",
-          "description": "How we work on Teams, the icebreakers and your Week 1 activities",
-          "actions": [
-            {
-              "text": "View",
-              "href": "weeks/week-01/au0009-week-1-learner-pack.pdf",
-              "view": true
-            },
-            {
-              "text": "Word",
-              "href": "weeks/week-01/au0009-week-1-learner-pack.docx",
-              "size": "42 KB",
-              "download": "AU0009 Week 1 Learner Pack.docx"
-            }
-          ]
-        }
-      ]
+      "items": []
     },
     {
       "week": 2,
