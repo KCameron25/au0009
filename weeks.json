@@ -1,0 +1,126 @@
+{
+  "course": {
+    "code": "AU0009",
+    "title": "AI Leadership (AI Strategy and Opportunity)",
+    "delivery": "Wednesdays, 9:45 to 12:45, online via Microsoft Teams",
+    "shareUrl": "https://tinyurl.com/AU0009",
+    "shareText": "tinyurl.com/AU0009",
+    "pageQr": "assets/qr/qr-page.png",
+    "skillsUrl": "skills/",
+    "skillsShareText": "tinyurl.com/AU0009skills",
+    "skillsQr": "assets/qr/qr-skills.png",
+    "github": {
+      "owner": "KCameron25",
+      "repo": "au0009",
+      "branch": "main",
+      "linksPath": "assets/links.js"
+    }
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "date": "2026-11-11",
+      "title": "Induction and AI foundations",
+      "summary": "",
+      "links": [],
+      "files": {
+        "au0009-week-1-induction-and-ai-foundations": {
+          "label": "Week 1, induction and AI foundations",
+          "description": "Induction, then Session 1, AI foundations, after the break at 11:30"
+        },
+        "au0009-week-1-learner-pack": {
+          "label": "AU0009 Week 1 Learner Pack",
+          "description": "How we work on Teams, the icebreakers and your Week 1 activities"
+        }
+      }
+    },
+    {
+      "week": 2,
+      "date": "2026-11-18",
+      "title": "Session 2",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 3,
+      "date": "2026-11-25",
+      "title": "Session 3",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 4,
+      "date": "2026-12-02",
+      "title": "Session 4",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 5,
+      "date": "2026-12-09",
+      "title": "Session 5",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 6,
+      "date": "2026-12-16",
+      "title": "Session 6",
+      "summary": "Last session before the Christmas break.",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 7,
+      "date": "2027-01-06",
+      "title": "Session 7",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 8,
+      "date": "2027-01-13",
+      "title": "Session 8",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 9,
+      "date": "2027-01-20",
+      "title": "Session 9",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 10,
+      "date": "2027-01-27",
+      "title": "Session 10",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 11,
+      "date": "2027-02-03",
+      "title": "Session 11",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 12,
+      "date": "2027-02-10",
+      "title": "Session 12, Skills Test",
+      "summary": "",
+      "links": [],
+      "files": {}
+    }
+  ]
+}
