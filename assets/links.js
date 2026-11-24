@@ -1,6 +1,16 @@
 /* Links added through the admin login. Saved automatically, but safe to edit by hand. */
 window.AU0009_LINKS = {
   "weeks": {
+    "1": [
+      {
+        "id": "mwvaybop86w5u",
+        "kind": "PowerPoint",
+        "label": "Week 1 Induction and AI Foundations",
+        "description": "",
+        "url": "https://blackpoolfylde-my.sharepoint.com/:p:/r/personal/kcam_blackpool_ac_uk/Documents/2.HE/26-27/1.%20AI%20leadership%20-%20AI%20strategy%20and%20opportunity%20AU0009/Session%201/AU0009%20Week%201%20Induction%20and%20AI%20Foundations.pptx?d=w428c0566a4e642779981b43c4ef0e207&csf=1&web=1&e=hFmccQ",
+        "download": true
+      }
+    ],
     "2": [
       {
         "id": "mwva3dwdrnsvn",
@@ -36,5 +46,5 @@ window.AU0009_LINKS = {
       }
     ]
   },
-  "updated": "2026-11-24T22:48:23.269Z"
+  "updated": "2026-11-24T23:04:54.381Z"
 };
