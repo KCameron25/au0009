@@ -9,6 +9,14 @@ window.AU0009_LINKS = {
         "description": "",
         "url": "https://blackpoolfylde-my.sharepoint.com/:p:/r/personal/kcam_blackpool_ac_uk/Documents/2.HE/26-27/1.%20AI%20leadership%20-%20AI%20strategy%20and%20opportunity%20AU0009/Session%201/AU0009%20Week%201%20Induction%20and%20AI%20Foundations.pptx?d=w428c0566a4e642779981b43c4ef0e207&csf=1&web=1&e=hFmccQ",
         "download": true
+      },
+      {
+        "id": "mwvayvk7h69yi",
+        "kind": "Word",
+        "label": "Week 1 Learner Pack",
+        "description": "",
+        "url": "https://blackpoolfylde-my.sharepoint.com/:w:/r/personal/kcam_blackpool_ac_uk/Documents/2.HE/26-27/1.%20AI%20leadership%20-%20AI%20strategy%20and%20opportunity%20AU0009/Session%201/AU0009%20Week%201%20Learner%20Pack.docx?d=wd441cc70b9344ce3b02eb4a4d4ae7d9b&csf=1&web=1&e=DJcUVc",
+        "download": true
       }
     ],
     "2": [
@@ -46,5 +54,5 @@ window.AU0009_LINKS = {
       }
     ]
   },
-  "updated": "2026-11-24T23:04:54.381Z"
+  "updated": "2026-11-24T23:05:20.108Z"
 };
