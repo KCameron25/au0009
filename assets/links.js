@@ -25,8 +25,16 @@ window.AU0009_LINKS = {
         "description": "",
         "url": "https://blackpoolfylde-my.sharepoint.com/:x:/r/personal/kcam_blackpool_ac_uk/Documents/2.HE/26-27/1.%20AI%20leadership%20-%20AI%20strategy%20and%20opportunity%20AU0009/Session%202/AU0009%20Week%202%20AI%20Readiness%20Workbook.xlsx?d=w9696049ee1e8453498a074b004fc679f&csf=1&web=1&e=EPZ9iI",
         "download": true
+      },
+      {
+        "id": "mwva5nhqvq8zy",
+        "kind": "Word",
+        "label": "Fylde Coast Logistics Case",
+        "description": "",
+        "url": "https://blackpoolfylde-my.sharepoint.com/:w:/r/personal/kcam_blackpool_ac_uk/Documents/2.HE/26-27/1.%20AI%20leadership%20-%20AI%20strategy%20and%20opportunity%20AU0009/Session%202/AU0009%20Week%202%20Fylde%20Coast%20Logistics%20Case.docx?d=w9711e1c5262e49fcbbf1478bb2585438&csf=1&web=1&e=eq1k9z",
+        "download": true
       }
     ]
   },
-  "updated": "2026-11-24T22:42:07.461Z"
+  "updated": "2026-11-24T22:42:36.645Z"
 };
