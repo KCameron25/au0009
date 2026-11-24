@@ -83,10 +83,6 @@
   var c = data.course || {};
   if (c.delivery) $("delivery").textContent = c.delivery;
   if (c.shareUrl) { var s = $("shareLink"); s.href = c.shareUrl; s.textContent = c.shareText || c.shareUrl; }
-  if (c.pageQr) { var q = $("pageQr"); q.href = c.pageQr; q.querySelector("img").src = c.pageQr; q.querySelector("img").alt = "QR code for this page, " + (c.shareText || ""); }
-  if (c.skillsUrl) $("skillsLink").href = c.skillsUrl;
-  if (c.skillsShareText) $("skillsText").textContent = c.skillsShareText;
-  if (c.skillsQr) { var sq = $("skillsQr"); sq.href = c.skillsQr; sq.querySelector("img").src = c.skillsQr; }
 
   // ---------- current week ----------
   var today = new Date(); today.setHours(0, 0, 0, 0);
@@ -165,14 +161,8 @@
     firstRender = false;
   }
 
-  // ---------- jump / open all ----------
-  var cw = data.weeks.filter(function (w) { return w.week === current; })[0];
-  var jump = $("jumpCurrent");
-  jump.href = "#week-" + current;
-  jump.querySelector("b").textContent = "This week: Week " + current;
-  $("jumpText").textContent = (cw && cw.title) || "Go to this week's resources";
+  // ---------- open all / links to a week ----------
   function openWeek(id, focus) { var d = $(id); if (d) { d.open = true; d.scrollIntoView({ behavior: "smooth", block: "start" }); if (focus) d.querySelector("summary").focus({ preventScroll: true }); } }
-  jump.addEventListener("click", function (e) { e.preventDefault(); history.replaceState(null, "", "#week-" + current); openWeek("week-" + current, true); });
   window.addEventListener("hashchange", function () { var m = location.hash.match(/^#(week-\d+)$/); if (m) openWeek(m[1]); });
   $("openAll").onclick = function () { host.querySelectorAll("details").forEach(function (d) { d.open = true; }); };
   $("closeAll").onclick = function () { host.querySelectorAll("details").forEach(function (d) { d.open = false; }); };

@@ -6,10 +6,6 @@ window.AU0009_DATA = {
     "delivery": "Wednesdays, 9:45 to 12:45, online via Microsoft Teams",
     "shareUrl": "https://tinyurl.com/AU0009",
     "shareText": "tinyurl.com/AU0009",
-    "pageQr": "assets/qr/qr-page.png",
-    "skillsUrl": "skills/",
-    "skillsShareText": "tinyurl.com/AU0009skills",
-    "skillsQr": "assets/qr/qr-skills.png",
     "github": {
       "owner": "KCameron25",
       "repo": "au0009",
