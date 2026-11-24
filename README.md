@@ -52,7 +52,6 @@ Edit `weeks.json`, then run the builder again.
 | Folder | What goes there |
 |---|---|
 | `weeks/week-01/` | The four Week 1 files from the old page: `au0009-week-1-induction-and-ai-foundations.pptx` and `.pdf`, `au0009-week-1-learner-pack.docx` and `.pdf` |
-| `assets/logos/` | `logo_bfc_group.png`, `logo_bfc_college.png`, `soc.png` |
 
 Linking straight to one week: add `#week-5` to the end of the page address.
 
