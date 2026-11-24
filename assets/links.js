@@ -17,8 +17,16 @@ window.AU0009_LINKS = {
         "description": "",
         "url": "https://blackpoolfylde-my.sharepoint.com/:w:/r/personal/kcam_blackpool_ac_uk/Documents/2.HE/26-27/1.%20AI%20leadership%20-%20AI%20strategy%20and%20opportunity%20AU0009/Session%202/AU0009%20Assessment%202%20Reflection%20Brief.docx?d=w1860e71018764d828ed2819d01870724&csf=1&web=1&e=egfmiP",
         "download": true
+      },
+      {
+        "id": "mwva511tieoxw",
+        "kind": "Excel",
+        "label": "AI Readiness Workbook",
+        "description": "",
+        "url": "https://blackpoolfylde-my.sharepoint.com/:x:/r/personal/kcam_blackpool_ac_uk/Documents/2.HE/26-27/1.%20AI%20leadership%20-%20AI%20strategy%20and%20opportunity%20AU0009/Session%202/AU0009%20Week%202%20AI%20Readiness%20Workbook.xlsx?d=w9696049ee1e8453498a074b004fc679f&csf=1&web=1&e=EPZ9iI",
+        "download": true
       }
     ]
   },
-  "updated": "2026-11-24T22:41:36.100Z"
+  "updated": "2026-11-24T22:42:07.461Z"
 };
