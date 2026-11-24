@@ -20,7 +20,7 @@ window.AU0009_DATA = {
   "weeks": [
     {
       "week": 1,
-      "date": "2026-11-11",
+      "date": "2026-11-18",
       "title": "Induction and AI foundations",
       "summary": "",
       "items": [
@@ -64,77 +64,77 @@ window.AU0009_DATA = {
     },
     {
       "week": 2,
-      "date": "2026-11-18",
+      "date": "2026-11-25",
       "title": "Session 2",
       "summary": "",
       "items": []
     },
     {
       "week": 3,
-      "date": "2026-11-25",
+      "date": "2026-12-02",
       "title": "Session 3",
       "summary": "",
       "items": []
     },
     {
       "week": 4,
-      "date": "2026-12-02",
+      "date": "2026-12-09",
       "title": "Session 4",
       "summary": "",
       "items": []
     },
     {
       "week": 5,
-      "date": "2026-12-09",
-      "title": "Session 5",
-      "summary": "",
-      "items": []
-    },
-    {
-      "week": 6,
       "date": "2026-12-16",
-      "title": "Session 6",
+      "title": "Session 5",
       "summary": "Last session before the Christmas break.",
       "items": []
     },
     {
-      "week": 7,
+      "week": 6,
       "date": "2027-01-06",
+      "title": "Session 6",
+      "summary": "",
+      "items": []
+    },
+    {
+      "week": 7,
+      "date": "2027-01-13",
       "title": "Session 7",
       "summary": "",
       "items": []
     },
     {
       "week": 8,
-      "date": "2027-01-13",
+      "date": "2027-01-20",
       "title": "Session 8",
       "summary": "",
       "items": []
     },
     {
       "week": 9,
-      "date": "2027-01-20",
+      "date": "2027-01-27",
       "title": "Session 9",
       "summary": "",
       "items": []
     },
     {
       "week": 10,
-      "date": "2027-01-27",
+      "date": "2027-02-03",
       "title": "Session 10",
       "summary": "",
       "items": []
     },
     {
       "week": 11,
-      "date": "2027-02-03",
+      "date": "2027-02-10",
       "title": "Session 11",
       "summary": "",
       "items": []
     },
     {
       "week": 12,
-      "date": "2027-02-10",
+      "date": "2027-02-17",
       "title": "Session 12, Skills Test",
       "summary": "",
       "items": []

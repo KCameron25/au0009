@@ -19,7 +19,7 @@
   "weeks": [
     {
       "week": 1,
-      "date": "2026-11-11",
+      "date": "2026-11-18",
       "title": "Induction and AI foundations",
       "summary": "",
       "links": [],
@@ -36,7 +36,7 @@
     },
     {
       "week": 2,
-      "date": "2026-11-18",
+      "date": "2026-11-25",
       "title": "Session 2",
       "summary": "",
       "links": [],
@@ -44,7 +44,7 @@
     },
     {
       "week": 3,
-      "date": "2026-11-25",
+      "date": "2026-12-02",
       "title": "Session 3",
       "summary": "",
       "links": [],
@@ -52,7 +52,7 @@
     },
     {
       "week": 4,
-      "date": "2026-12-02",
+      "date": "2026-12-09",
       "title": "Session 4",
       "summary": "",
       "links": [],
@@ -60,23 +60,23 @@
     },
     {
       "week": 5,
-      "date": "2026-12-09",
-      "title": "Session 5",
-      "summary": "",
-      "links": [],
-      "files": {}
-    },
-    {
-      "week": 6,
       "date": "2026-12-16",
-      "title": "Session 6",
+      "title": "Session 5",
       "summary": "Last session before the Christmas break.",
       "links": [],
       "files": {}
     },
     {
-      "week": 7,
+      "week": 6,
       "date": "2027-01-06",
+      "title": "Session 6",
+      "summary": "",
+      "links": [],
+      "files": {}
+    },
+    {
+      "week": 7,
+      "date": "2027-01-13",
       "title": "Session 7",
       "summary": "",
       "links": [],
@@ -84,7 +84,7 @@
     },
     {
       "week": 8,
-      "date": "2027-01-13",
+      "date": "2027-01-20",
       "title": "Session 8",
       "summary": "",
       "links": [],
@@ -92,7 +92,7 @@
     },
     {
       "week": 9,
-      "date": "2027-01-20",
+      "date": "2027-01-27",
       "title": "Session 9",
       "summary": "",
       "links": [],
@@ -100,7 +100,7 @@
     },
     {
       "week": 10,
-      "date": "2027-01-27",
+      "date": "2027-02-03",
       "title": "Session 10",
       "summary": "",
       "links": [],
@@ -108,7 +108,7 @@
     },
     {
       "week": 11,
-      "date": "2027-02-03",
+      "date": "2027-02-10",
       "title": "Session 11",
       "summary": "",
       "links": [],
@@ -116,7 +116,7 @@
     },
     {
       "week": 12,
-      "date": "2027-02-10",
+      "date": "2027-02-17",
       "title": "Session 12, Skills Test",
       "summary": "",
       "links": [],
