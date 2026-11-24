@@ -54,10 +54,28 @@
     return ext && map[ext[1].toLowerCase()] || "";
   }
   function isOneDrive(url) { return /sharepoint\.com|onedrive\.live\.com|1drv\.ms/i.test(url || ""); }
+  // Turns a OneDrive / SharePoint link into one that downloads the file.
+  // "/:p:/r/personal/..." links (and links copied from the address bar) point at the file's path,
+  // so they use SharePoint's download.aspx. Sharing links ("/:p:/g/...") get download=1.
+  // Any web=1 is removed, because it forces the file to open in the browser.
   function downloadUrl(url) {
     if (!url) return url;
-    if (/[?&]download=1/.test(url)) return url;
-    return url + (url.indexOf("?") > -1 ? "&" : "?") + "download=1";
+    try {
+      var u = new URL(url);
+      if (/sharepoint\.com$/i.test(u.hostname)) {
+        if (/\/_layouts\/15\/download\.aspx/i.test(u.pathname)) return url;
+        var path = u.pathname.replace(/^\/:[a-z]:\/r(?=\/)/i, "");
+        var site = /^\/((?:personal|sites|teams)\/[^\/]+)\/.+\.[a-z0-9]{2,5}$/i.exec(decodeURIComponent(path));
+        if (site && !/^\/:[a-z]:\/[gs]\//i.test(u.pathname)) {
+          return u.origin + "/" + site[1] + "/_layouts/15/download.aspx?SourceUrl=" + encodeURIComponent(decodeURIComponent(path));
+        }
+      }
+      u.searchParams.delete("web");
+      u.searchParams.set("download", "1");
+      return u.toString();
+    } catch (e) {
+      return url.replace(/([?&])web=1&?/, "$1").replace(/[?&]$/, "") + (url.indexOf("?") > -1 ? "&" : "?") + "download=1";
+    }
   }
   var DL_TEXT = { PowerPoint: "PowerPoint", Word: "Word", Excel: "Excel", PDF: "PDF", Video: "Video", Image: "Image" };
 
