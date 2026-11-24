@@ -81,8 +81,8 @@
 
   // ---------- course header ----------
   var c = data.course || {};
-  if (c.delivery) $("delivery").textContent = c.delivery;
-  if (c.shareUrl) { var s = $("shareLink"); s.href = c.shareUrl; s.textContent = c.shareText || c.shareUrl; }
+  if (c.delivery && $("delivery")) $("delivery").textContent = c.delivery;
+  if (c.shareUrl && $("shareLink")) { var s = $("shareLink"); s.href = c.shareUrl; s.textContent = c.shareText || c.shareUrl; }
 
   // ---------- current week ----------
   var today = new Date(); today.setHours(0, 0, 0, 0);
@@ -164,9 +164,9 @@
   // ---------- open all / links to a week ----------
   function openWeek(id, focus) { var d = $(id); if (d) { d.open = true; d.scrollIntoView({ behavior: "smooth", block: "start" }); if (focus) d.querySelector("summary").focus({ preventScroll: true }); } }
   window.addEventListener("hashchange", function () { var m = location.hash.match(/^#(week-\d+)$/); if (m) openWeek(m[1]); });
-  $("openAll").onclick = function () { host.querySelectorAll("details").forEach(function (d) { d.open = true; }); };
-  $("closeAll").onclick = function () { host.querySelectorAll("details").forEach(function (d) { d.open = false; }); };
-  if (data.built) $("updated").textContent = "Last updated " + data.built;
+  if ($("openAll")) $("openAll").onclick = function () { host.querySelectorAll("details").forEach(function (d) { d.open = true; }); };
+  if ($("closeAll")) $("closeAll").onclick = function () { host.querySelectorAll("details").forEach(function (d) { d.open = false; }); };
+  if (data.built && $("updated")) $("updated").textContent = "Last updated " + data.built;
 
   // ---------- load admin-added links (fresh copy, skips browser cache) ----------
   function boot() {
